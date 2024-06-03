@@ -2,7 +2,7 @@ import requests
 from flask import Flask, render_template, request, session, redirect, send_file
 import random
 
-LINK = "https://marketscanner.pythonanywhere.com/"
+LINK = "https://localhost:5000/"
 
 codes = {
     "register": {
